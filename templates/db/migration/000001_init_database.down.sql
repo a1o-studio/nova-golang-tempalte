@@ -1,0 +1,3 @@
+-- Drop tables in reverse order
+-- Example:
+-- DROP TABLE IF EXISTS users;

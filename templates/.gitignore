@@ -1,0 +1,57 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Test binary
+*.test
+
+# Coverage
+*.out
+coverage.txt
+
+# Environment files (keep examples)
+app.env
+*.env
+!*.env.example
+
+# Docker Compose (keep example)
+docker-compose.yml
+!docker-compose.yml.example
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Documentation (will be regenerated)
+docs/docs.go
+docs/swagger.json
+docs/swagger.yaml
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Go workspace
+go.work
+go.work.sum

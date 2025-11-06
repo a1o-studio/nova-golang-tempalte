@@ -1,0 +1,8 @@
+-- Initial database setup
+-- Add your table creation statements here
+-- Example: 
+-- CREATE TABLE IF NOT EXISTS users (
+--     id SERIAL PRIMARY KEY,
+--     email VARCHAR(255) UNIQUE NOT NULL,
+--     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
