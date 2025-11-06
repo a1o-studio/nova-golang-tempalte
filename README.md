@@ -74,6 +74,7 @@ npm run new:go user-api --path=apps/user-api
 # 自定义 module 路径
 npm run new:go user-api --module=github.com/mycompany
 ## setup.sh 做了什么？
+```
 
 初始化脚本会自动完成以下配置：
 
@@ -87,8 +88,7 @@ npm run new:go user-api --module=github.com/mycompany
 
 ## 项目结构
 
-```
-
+``` plaintext
 templates/                    # Go 服务模板
 ├── cmd/
 │   └── main.go              # 应用入口
@@ -110,7 +110,6 @@ templates/                    # Go 服务模板
 ├── sqlc.yaml                # SQLC 配置
 ├── setup.sh                 # 初始化脚本
 └── go.mod                   # Go 模块
-
 ```
 
 ## 模板特性详解
